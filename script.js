@@ -1,3 +1,7 @@
+import { bubbleSort } from "./sorting/bubble.js";
+
+
+
 let array = [];
 const container = document.getElementById("array-container");
 

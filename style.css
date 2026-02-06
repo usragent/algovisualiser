@@ -3,15 +3,19 @@ body {
   font-family: Arial;
 }
 
+.controls {
+    margin: 20px;
+}
+
 #array-container {
   display: flex;
+  justify-content: center;
   align-items: flex-end;
   height: 400px;
-  margin: 20px;
 }
 
 .bar {
   background: steelblue;
   margin: 1px;
-  width: 10px;
+  width: 8px;
 }
