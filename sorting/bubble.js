@@ -1,7 +1,7 @@
 import { array, sleep, container } from "../script.js";
 
 
-export async function bubblesort() {
+export async function bubbleSort() {
     const bars = container.children;
 
 

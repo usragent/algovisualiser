@@ -11,7 +11,7 @@ async function mergeSortRecursive(left, right) {
     let mid = Math.floor((left + right) / 2);
     await mergeSortRecursive(left, mid);
     await mergeSortRecursive(mid + 1, right);
-    await mergeSort(left, mid, right);
+    await merge(left, mid, right);
 }
 
 async function merge(left, mid, right) {
